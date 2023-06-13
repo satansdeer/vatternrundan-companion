@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/Users/maksimivanov/workspace/vatternrundan-companion/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionView.mc" id="1" lineNum="4" parent="globals/vatternrundancompanionView" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionView.mc" id="3" lineNum="11" parent="globals/vatternrundancompanionView" pc="268435479" symbol="onLayout"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionView.mc" id="3" lineNum="12" parent="globals/vatternrundancompanionView" pc="268435481" symbol="onLayout"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionView.mc" id="4" lineNum="6" parent="globals/vatternrundancompanionView" pc="268435523" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionView.mc" id="4" lineNum="7" parent="globals/vatternrundancompanionView" pc="268435525" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionView.mc" id="6" lineNum="22" parent="globals/vatternrundancompanionView" pc="268435544" symbol="onUpdate"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionView.mc" id="6" lineNum="24" parent="globals/vatternrundancompanionView" pc="268435546" symbol="onUpdate"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="7" lineNum="34" parent="globals" pc="268435567" symbol="getApp"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="7" lineNum="35" parent="globals" pc="268435577" symbol="getApp"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="8" lineNum="7" parent="globals/Rez" pc="268435593" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="9" lineNum="5" parent="globals/vatternrundancompanionApp" pc="268435617" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="10" lineNum="14" parent="globals/vatternrundancompanionApp" pc="268435636" symbol="onStart"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="10" lineNum="16" parent="globals/vatternrundancompanionApp" pc="268435638" symbol="onStart"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="10" lineNum="19" parent="globals/vatternrundancompanionApp" pc="268435685" symbol="onStart"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="10" lineNum="20" parent="globals/vatternrundancompanionApp" pc="268435708" symbol="onStart"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="11" lineNum="28" parent="globals/vatternrundancompanionApp" pc="268435735" symbol="getInitialView"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="11" lineNum="29" parent="globals/vatternrundancompanionApp" pc="268435737" symbol="getInitialView"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="12" lineNum="9" parent="globals/vatternrundancompanionApp" pc="268435812" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="12" lineNum="10" parent="globals/vatternrundancompanionApp" pc="268435814" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="13" lineNum="24" parent="globals/vatternrundancompanionApp" pc="268435833" symbol="onStop"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionDelegate.mc" id="14" lineNum="4" parent="globals/vatternrundancompanionDelegate" pc="268435836" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionDelegate.mc" id="15" lineNum="10" parent="globals/vatternrundancompanionDelegate" pc="268435855" symbol="onMenu"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionDelegate.mc" id="15" lineNum="11" parent="globals/vatternrundancompanionDelegate" pc="268435857" symbol="onMenu"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionDelegate.mc" id="15" lineNum="12" parent="globals/vatternrundancompanionDelegate" pc="268435942" symbol="onMenu"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionDelegate.mc" id="16" lineNum="6" parent="globals/vatternrundancompanionDelegate" pc="268435945" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionDelegate.mc" id="16" lineNum="7" parent="globals/vatternrundancompanionDelegate" pc="268435947" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionMenuDelegate.mc" id="17" lineNum="5" parent="globals/vatternrundancompanionMenuDelegate" pc="268435966" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionMenuDelegate.mc" id="18" lineNum="11" parent="globals/vatternrundancompanionMenuDelegate" pc="268435985" symbol="onMenuItem"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionMenuDelegate.mc" id="18" lineNum="12" parent="globals/vatternrundancompanionMenuDelegate" pc="268435987" symbol="onMenuItem"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionMenuDelegate.mc" id="18" lineNum="13" parent="globals/vatternrundancompanionMenuDelegate" pc="268435998" symbol="onMenuItem"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionMenuDelegate.mc" id="18" lineNum="14" parent="globals/vatternrundancompanionMenuDelegate" pc="268436022" symbol="onMenuItem"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionMenuDelegate.mc" id="18" lineNum="15" parent="globals/vatternrundancompanionMenuDelegate" pc="268436033" symbol="onMenuItem"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionMenuDelegate.mc" id="19" lineNum="7" parent="globals/vatternrundancompanionMenuDelegate" pc="268436058" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionMenuDelegate.mc" id="19" lineNum="8" parent="globals/vatternrundancompanionMenuDelegate" pc="268436060" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="20" lineNum="21" parent="globals/Rez/Layouts" pc="268436079" symbol="MainLayout"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="20" lineNum="22" parent="globals/Rez/Layouts" pc="268436091" symbol="MainLayout"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="20" lineNum="24" parent="globals/Rez/Layouts" pc="268436222" symbol="MainLayout"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="20" lineNum="25" parent="globals/Rez/Layouts" pc="268436327" symbol="MainLayout"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="20" lineNum="27" parent="globals/Rez/Layouts" pc="268436367" symbol="MainLayout"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="21" lineNum="32" parent="globals/Rez/Menus/MainMenu" pc="268436394" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="22" lineNum="33" parent="globals/Rez/Menus/MainMenu" pc="268436413" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="22" lineNum="34" parent="globals/Rez/Menus/MainMenu" pc="268436415" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="22" lineNum="35" parent="globals/Rez/Menus/MainMenu" pc="268436433" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="22" lineNum="36" parent="globals/Rez/Menus/MainMenu" pc="268436489" symbol="initialize"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8389346" symbol="text"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="7" module="true" symbol="globals/Rez/Menus"/>
+        <entry id="18" method="true" symbol="MainLayout"/>
+        <entry field="true" id="15" symbol="raceRouteData"/>
+        <entry id="9" object="true" symbol="vatternrundancompanionApp"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="20" symbol="AppName"/>
+        <entry id="8" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8389080" method="true" symbol="onMenu"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="8389345" symbol="rezId"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="10" object="true" symbol="vatternrundancompanionDelegate"/>
+        <entry id="12" object="true" symbol="vatternrundancompanionView"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry field="true" id="23" symbol="prompt"/>
+        <entry field="true" id="17" symbol="id_monkey"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="26" symbol="item_2"/>
+        <entry id="25" symbol="item_1"/>
+        <entry id="14" module="true" symbol="Menus"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="5" module="true" symbol="globals/Rez/JsonData"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="19" object="true" symbol="MainMenu"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry field="true" id="16" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="11" object="true" symbol="vatternrundancompanionMenuDelegate"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8389109" method="true" symbol="onMenuItem"/>
+        <entry id="8389347" symbol="color"/>
+        <entry id="13" module="true" symbol="Layouts"/>
+        <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry field="true" id="24" symbol="raceRoute"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="22" symbol="menu_label_2"/>
+        <entry field="true" id="21" symbol="menu_label_1"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435522" name="dc" stackId="1" startPc="268435479"/>
+        <entry arg="true" endPc="268435566" name="dc" stackId="1" startPc="268435544"/>
+        <entry arg="true" endPc="268435734" name="state" stackId="1" startPc="268435636"/>
+        <entry arg="true" endPc="268436057" name="item" stackId="1" startPc="268435985"/>
+        <entry arg="true" endPc="268436393" name="dc" stackId="1" startPc="268436079"/>
+        <entry endPc="268436393" name="rez_cmp_local_text_2091810866" stackId="2" startPc="268436091"/>
+        <entry endPc="268436393" name="rez_cmp_local_bitmap_id_monkey" stackId="3" startPc="268436091"/>
+    </localVars>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_2"/>
+        <annotationEntry annotation="initialized" class="JsonData" module="globals/Rez" symbol="raceRoute"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_1"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="prompt"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_monkey"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/vatternrundancompanionView" offset="174" parentId="globals" symbolId="vatternrundancompanionView" type="class"/>
+        <dataEntry label="globals/Rez" offset="253" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/vatternrundancompanionApp" offset="332" parentId="globals" symbolId="vatternrundancompanionApp" type="class"/>
+        <dataEntry label="globals/vatternrundancompanionDelegate" offset="411" parentId="globals" symbolId="vatternrundancompanionDelegate" type="class"/>
+        <dataEntry label="globals/vatternrundancompanionMenuDelegate" offset="466" parentId="globals" symbolId="vatternrundancompanionMenuDelegate" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="521" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="568" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="607" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="646" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="677" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="740" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/Rez/Menus/MainMenu" offset="779" parentId="Menus" symbolId="MainMenu" type="class"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="vatternrundancompanionView" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="vatternrundancompanionView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435522" name="onLayout" parent="vatternrundancompanionView" startPc="268435479">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435543" name="initialize" parent="vatternrundancompanionView" startPc="268435523">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="vatternrundancompanionView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435566" name="onUpdate" parent="vatternrundancompanionView" startPc="268435544">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435592" name="getApp" startPc="268435567">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435616" name="&lt;init&gt;" parent="Rez" startPc="268435593">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435635" name="&lt;init&gt;" parent="vatternrundancompanionApp" startPc="268435617">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435734" name="onStart" parent="vatternrundancompanionApp" startPc="268435636">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435811" name="getInitialView" parent="vatternrundancompanionApp" startPc="268435735">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435832" name="initialize" parent="vatternrundancompanionApp" startPc="268435812">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435835" name="onStop" parent="vatternrundancompanionApp" startPc="268435833">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435854" name="&lt;init&gt;" parent="vatternrundancompanionDelegate" startPc="268435836">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435944" name="onMenu" parent="vatternrundancompanionDelegate" startPc="268435855">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435965" name="initialize" parent="vatternrundancompanionDelegate" startPc="268435945">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435984" name="&lt;init&gt;" parent="vatternrundancompanionMenuDelegate" startPc="268435966">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436057" name="onMenuItem" parent="vatternrundancompanionMenuDelegate" startPc="268435985">
+            <param id="item"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436078" name="initialize" parent="vatternrundancompanionMenuDelegate" startPc="268436058">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436393" name="MainLayout" parent="Layouts" startPc="268436079">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436412" name="&lt;init&gt;" parent="MainMenu" startPc="268436394">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436545" name="initialize" parent="MainMenu" startPc="268436413">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
