@@ -14,90 +14,85 @@
         <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionView.mc" id="7" lineNum="32" parent="globals/vatternrundancompanionView" pc="268435581" symbol="setPosition"/>
         <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionView.mc" id="7" lineNum="33" parent="globals/vatternrundancompanionView" pc="268435600" symbol="setPosition"/>
         <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionView.mc" id="7" lineNum="35" parent="globals/vatternrundancompanionView" pc="268435619" symbol="setPosition"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionView.mc" id="7" lineNum="36" parent="globals/vatternrundancompanionView" pc="268435629" symbol="setPosition"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionView.mc" id="7" lineNum="38" parent="globals/vatternrundancompanionView" pc="268435642" symbol="setPosition"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionView.mc" id="7" lineNum="40" parent="globals/vatternrundancompanionView" pc="268435689" symbol="setPosition"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionView.mc" id="7" lineNum="42" parent="globals/vatternrundancompanionView" pc="268435715" symbol="setPosition"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="8" lineNum="44" parent="globals" pc="268435732" symbol="getApp"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="8" lineNum="45" parent="globals" pc="268435742" symbol="getApp"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="9" lineNum="7" parent="globals/Rez" pc="268435758" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="10" lineNum="8" parent="globals/RaceStats" pc="268435782" symbol="haversine"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="10" lineNum="9" parent="globals/RaceStats" pc="268435786" symbol="haversine"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="10" lineNum="10" parent="globals/RaceStats" pc="268435796" symbol="haversine"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="10" lineNum="11" parent="globals/RaceStats" pc="268435806" symbol="haversine"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="10" lineNum="12" parent="globals/RaceStats" pc="268435816" symbol="haversine"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="10" lineNum="13" parent="globals/RaceStats" pc="268435826" symbol="haversine"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="10" lineNum="14" parent="globals/RaceStats" pc="268435848" symbol="haversine"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="10" lineNum="15" parent="globals/RaceStats" pc="268435870" symbol="haversine"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="10" lineNum="16" parent="globals/RaceStats" pc="268436025" symbol="haversine"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="10" lineNum="17" parent="globals/RaceStats" pc="268436088" symbol="haversine"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="11" lineNum="21" parent="globals/RaceStats" pc="268436097" symbol="closest_point"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="11" lineNum="22" parent="globals/RaceStats" pc="268436101" symbol="closest_point"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="11" lineNum="23" parent="globals/RaceStats" pc="268436124" symbol="closest_point"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="11" lineNum="24" parent="globals/RaceStats" pc="268436131" symbol="closest_point"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="11" lineNum="25" parent="globals/RaceStats" pc="268436155" symbol="closest_point"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="11" lineNum="26" parent="globals/RaceStats" pc="268436175" symbol="closest_point"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="11" lineNum="27" parent="globals/RaceStats" pc="268436183" symbol="closest_point"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="11" lineNum="28" parent="globals/RaceStats" pc="268436187" symbol="closest_point"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="11" lineNum="31" parent="globals/RaceStats" pc="268436207" symbol="closest_point"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="12" lineNum="34" parent="globals/RaceStats" pc="268436210" symbol="calculate_race_stats"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="12" lineNum="35" parent="globals/RaceStats" pc="268436214" symbol="calculate_race_stats"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="12" lineNum="36" parent="globals/RaceStats" pc="268436237" symbol="calculate_race_stats"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="12" lineNum="37" parent="globals/RaceStats" pc="268436244" symbol="calculate_race_stats"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="12" lineNum="38" parent="globals/RaceStats" pc="268436258" symbol="calculate_race_stats"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="12" lineNum="39" parent="globals/RaceStats" pc="268436288" symbol="calculate_race_stats"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="12" lineNum="40" parent="globals/RaceStats" pc="268436320" symbol="calculate_race_stats"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="12" lineNum="42" parent="globals/RaceStats" pc="268436343" symbol="calculate_race_stats"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="12" lineNum="43" parent="globals/RaceStats" pc="268436369" symbol="calculate_race_stats"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="12" lineNum="44" parent="globals/RaceStats" pc="268436386" symbol="calculate_race_stats"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="12" lineNum="45" parent="globals/RaceStats" pc="268436412" symbol="calculate_race_stats"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="12" lineNum="46" parent="globals/RaceStats" pc="268436429" symbol="calculate_race_stats"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="12" lineNum="47" parent="globals/RaceStats" pc="268436455" symbol="calculate_race_stats"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="12" lineNum="48" parent="globals/RaceStats" pc="268436462" symbol="calculate_race_stats"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="12" lineNum="49" parent="globals/RaceStats" pc="268436477" symbol="calculate_race_stats"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="12" lineNum="50" parent="globals/RaceStats" pc="268436487" symbol="calculate_race_stats"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="12" lineNum="52" parent="globals/RaceStats" pc="268436526" symbol="calculate_race_stats"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="12" lineNum="53" parent="globals/RaceStats" pc="268436554" symbol="calculate_race_stats"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="12" lineNum="54" parent="globals/RaceStats" pc="268436561" symbol="calculate_race_stats"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="14" lineNum="6" parent="globals/vatternrundancompanionApp" pc="268436598" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="15" lineNum="19" parent="globals/vatternrundancompanionApp" pc="268436617" symbol="onStart"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="15" lineNum="21" parent="globals/vatternrundancompanionApp" pc="268436619" symbol="onStart"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="15" lineNum="22" parent="globals/vatternrundancompanionApp" pc="268436642" symbol="onStart"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="15" lineNum="23" parent="globals/vatternrundancompanionApp" pc="268436689" symbol="onStart"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="16" lineNum="33" parent="globals/vatternrundancompanionApp" pc="268436727" symbol="onPosition"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="16" lineNum="34" parent="globals/vatternrundancompanionApp" pc="268436729" symbol="onPosition"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="17" lineNum="38" parent="globals/vatternrundancompanionApp" pc="268436766" symbol="getInitialView"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="17" lineNum="39" parent="globals/vatternrundancompanionApp" pc="268436768" symbol="getInitialView"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="18" lineNum="12" parent="globals/vatternrundancompanionApp" pc="268436825" symbol="initialize"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="18" lineNum="13" parent="globals/vatternrundancompanionApp" pc="268436827" symbol="initialize"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="18" lineNum="14" parent="globals/vatternrundancompanionApp" pc="268436845" symbol="initialize"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="18" lineNum="15" parent="globals/vatternrundancompanionApp" pc="268436879" symbol="initialize"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="19" lineNum="27" parent="globals/vatternrundancompanionApp" pc="268436914" symbol="onStop"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="19" lineNum="28" parent="globals/vatternrundancompanionApp" pc="268436916" symbol="onStop"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionDelegate.mc" id="20" lineNum="4" parent="globals/vatternrundancompanionDelegate" pc="268436954" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionDelegate.mc" id="21" lineNum="10" parent="globals/vatternrundancompanionDelegate" pc="268436973" symbol="onMenu"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionDelegate.mc" id="21" lineNum="11" parent="globals/vatternrundancompanionDelegate" pc="268436975" symbol="onMenu"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionDelegate.mc" id="21" lineNum="12" parent="globals/vatternrundancompanionDelegate" pc="268437060" symbol="onMenu"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionDelegate.mc" id="22" lineNum="6" parent="globals/vatternrundancompanionDelegate" pc="268437063" symbol="initialize"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionDelegate.mc" id="22" lineNum="7" parent="globals/vatternrundancompanionDelegate" pc="268437065" symbol="initialize"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionMenuDelegate.mc" id="23" lineNum="5" parent="globals/vatternrundancompanionMenuDelegate" pc="268437084" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionMenuDelegate.mc" id="24" lineNum="11" parent="globals/vatternrundancompanionMenuDelegate" pc="268437103" symbol="onMenuItem"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionMenuDelegate.mc" id="24" lineNum="12" parent="globals/vatternrundancompanionMenuDelegate" pc="268437105" symbol="onMenuItem"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionMenuDelegate.mc" id="24" lineNum="13" parent="globals/vatternrundancompanionMenuDelegate" pc="268437116" symbol="onMenuItem"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionMenuDelegate.mc" id="24" lineNum="14" parent="globals/vatternrundancompanionMenuDelegate" pc="268437140" symbol="onMenuItem"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionMenuDelegate.mc" id="24" lineNum="15" parent="globals/vatternrundancompanionMenuDelegate" pc="268437151" symbol="onMenuItem"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionMenuDelegate.mc" id="25" lineNum="7" parent="globals/vatternrundancompanionMenuDelegate" pc="268437176" symbol="initialize"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionMenuDelegate.mc" id="25" lineNum="8" parent="globals/vatternrundancompanionMenuDelegate" pc="268437178" symbol="initialize"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="26" lineNum="21" parent="globals/Rez/Layouts" pc="268437197" symbol="MainLayout"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="26" lineNum="22" parent="globals/Rez/Layouts" pc="268437209" symbol="MainLayout"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="26" lineNum="24" parent="globals/Rez/Layouts" pc="268437340" symbol="MainLayout"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="26" lineNum="25" parent="globals/Rez/Layouts" pc="268437445" symbol="MainLayout"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="26" lineNum="27" parent="globals/Rez/Layouts" pc="268437485" symbol="MainLayout"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="27" lineNum="32" parent="globals/Rez/Menus/MainMenu" pc="268437512" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="28" lineNum="33" parent="globals/Rez/Menus/MainMenu" pc="268437531" symbol="initialize"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="28" lineNum="34" parent="globals/Rez/Menus/MainMenu" pc="268437533" symbol="initialize"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="28" lineNum="35" parent="globals/Rez/Menus/MainMenu" pc="268437551" symbol="initialize"/>
-        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="28" lineNum="36" parent="globals/Rez/Menus/MainMenu" pc="268437607" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionView.mc" id="7" lineNum="37" parent="globals/vatternrundancompanionView" pc="268435658" symbol="setPosition"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionView.mc" id="7" lineNum="39" parent="globals/vatternrundancompanionView" pc="268435684" symbol="setPosition"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="8" lineNum="42" parent="globals" pc="268435701" symbol="getApp"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="8" lineNum="43" parent="globals" pc="268435711" symbol="getApp"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="9" lineNum="7" parent="globals/Rez" pc="268435727" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="10" lineNum="25" parent="globals/RaceStats" pc="268435751" symbol="haversine"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="10" lineNum="26" parent="globals/RaceStats" pc="268435755" symbol="haversine"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="10" lineNum="27" parent="globals/RaceStats" pc="268435765" symbol="haversine"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="10" lineNum="28" parent="globals/RaceStats" pc="268435775" symbol="haversine"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="10" lineNum="29" parent="globals/RaceStats" pc="268435785" symbol="haversine"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="10" lineNum="30" parent="globals/RaceStats" pc="268435795" symbol="haversine"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="10" lineNum="31" parent="globals/RaceStats" pc="268435817" symbol="haversine"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="10" lineNum="32" parent="globals/RaceStats" pc="268435839" symbol="haversine"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="10" lineNum="33" parent="globals/RaceStats" pc="268435994" symbol="haversine"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="10" lineNum="34" parent="globals/RaceStats" pc="268436057" symbol="haversine"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="11" lineNum="47" parent="globals/RaceStats" pc="268436066" symbol="calculate_race_stats"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="11" lineNum="48" parent="globals/RaceStats" pc="268436070" symbol="calculate_race_stats"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="11" lineNum="49" parent="globals/RaceStats" pc="268436096" symbol="calculate_race_stats"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="11" lineNum="50" parent="globals/RaceStats" pc="268436118" symbol="calculate_race_stats"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="11" lineNum="51" parent="globals/RaceStats" pc="268436125" symbol="calculate_race_stats"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="11" lineNum="52" parent="globals/RaceStats" pc="268436146" symbol="calculate_race_stats"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="11" lineNum="54" parent="globals/RaceStats" pc="268436175" symbol="calculate_race_stats"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="11" lineNum="55" parent="globals/RaceStats" pc="268436209" symbol="calculate_race_stats"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="11" lineNum="56" parent="globals/RaceStats" pc="268436222" symbol="calculate_race_stats"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="12" lineNum="12" parent="globals/RaceStats" pc="268436259" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="12" lineNum="13" parent="globals/RaceStats" pc="268436263" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="12" lineNum="14" parent="globals/RaceStats" pc="268436306" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="12" lineNum="15" parent="globals/RaceStats" pc="268436322" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="12" lineNum="16" parent="globals/RaceStats" pc="268436335" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="12" lineNum="17" parent="globals/RaceStats" pc="268436348" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="12" lineNum="18" parent="globals/RaceStats" pc="268436361" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="12" lineNum="19" parent="globals/RaceStats" pc="268436393" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="12" lineNum="20" parent="globals/RaceStats" pc="268436429" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="12" lineNum="21" parent="globals/RaceStats" pc="268436479" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="13" lineNum="37" parent="globals/RaceStats" pc="268436518" symbol="update_checkpoints"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="13" lineNum="38" parent="globals/RaceStats" pc="268436520" symbol="update_checkpoints"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="13" lineNum="39" parent="globals/RaceStats" pc="268436546" symbol="update_checkpoints"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="13" lineNum="40" parent="globals/RaceStats" pc="268436581" symbol="update_checkpoints"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="13" lineNum="41" parent="globals/RaceStats" pc="268436616" symbol="update_checkpoints"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="13" lineNum="42" parent="globals/RaceStats" pc="268436668" symbol="update_checkpoints"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" id="13" lineNum="43" parent="globals/RaceStats" pc="268436684" symbol="update_checkpoints"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="14" lineNum="6" parent="globals/vatternrundancompanionApp" pc="268436707" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="15" lineNum="18" parent="globals/vatternrundancompanionApp" pc="268436726" symbol="onStart"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="15" lineNum="20" parent="globals/vatternrundancompanionApp" pc="268436728" symbol="onStart"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="15" lineNum="21" parent="globals/vatternrundancompanionApp" pc="268436751" symbol="onStart"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="16" lineNum="31" parent="globals/vatternrundancompanionApp" pc="268436789" symbol="onPosition"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="16" lineNum="32" parent="globals/vatternrundancompanionApp" pc="268436791" symbol="onPosition"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="17" lineNum="36" parent="globals/vatternrundancompanionApp" pc="268436820" symbol="getInitialView"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="17" lineNum="37" parent="globals/vatternrundancompanionApp" pc="268436822" symbol="getInitialView"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="18" lineNum="11" parent="globals/vatternrundancompanionApp" pc="268436879" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="18" lineNum="12" parent="globals/vatternrundancompanionApp" pc="268436881" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="18" lineNum="13" parent="globals/vatternrundancompanionApp" pc="268436899" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="18" lineNum="14" parent="globals/vatternrundancompanionApp" pc="268436933" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="19" lineNum="25" parent="globals/vatternrundancompanionApp" pc="268436968" symbol="onStop"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" id="19" lineNum="26" parent="globals/vatternrundancompanionApp" pc="268436970" symbol="onStop"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionDelegate.mc" id="20" lineNum="4" parent="globals/vatternrundancompanionDelegate" pc="268437008" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionDelegate.mc" id="21" lineNum="10" parent="globals/vatternrundancompanionDelegate" pc="268437027" symbol="onMenu"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionDelegate.mc" id="21" lineNum="11" parent="globals/vatternrundancompanionDelegate" pc="268437029" symbol="onMenu"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionDelegate.mc" id="21" lineNum="12" parent="globals/vatternrundancompanionDelegate" pc="268437114" symbol="onMenu"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionDelegate.mc" id="22" lineNum="6" parent="globals/vatternrundancompanionDelegate" pc="268437117" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionDelegate.mc" id="22" lineNum="7" parent="globals/vatternrundancompanionDelegate" pc="268437119" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionMenuDelegate.mc" id="23" lineNum="5" parent="globals/vatternrundancompanionMenuDelegate" pc="268437138" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionMenuDelegate.mc" id="24" lineNum="11" parent="globals/vatternrundancompanionMenuDelegate" pc="268437157" symbol="onMenuItem"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionMenuDelegate.mc" id="24" lineNum="12" parent="globals/vatternrundancompanionMenuDelegate" pc="268437159" symbol="onMenuItem"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionMenuDelegate.mc" id="24" lineNum="13" parent="globals/vatternrundancompanionMenuDelegate" pc="268437170" symbol="onMenuItem"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionMenuDelegate.mc" id="24" lineNum="14" parent="globals/vatternrundancompanionMenuDelegate" pc="268437194" symbol="onMenuItem"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionMenuDelegate.mc" id="24" lineNum="15" parent="globals/vatternrundancompanionMenuDelegate" pc="268437205" symbol="onMenuItem"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionMenuDelegate.mc" id="25" lineNum="7" parent="globals/vatternrundancompanionMenuDelegate" pc="268437230" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionMenuDelegate.mc" id="25" lineNum="8" parent="globals/vatternrundancompanionMenuDelegate" pc="268437232" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="26" lineNum="21" parent="globals/Rez/Layouts" pc="268437251" symbol="MainLayout"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="26" lineNum="22" parent="globals/Rez/Layouts" pc="268437263" symbol="MainLayout"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="26" lineNum="24" parent="globals/Rez/Layouts" pc="268437394" symbol="MainLayout"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="26" lineNum="25" parent="globals/Rez/Layouts" pc="268437499" symbol="MainLayout"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="26" lineNum="27" parent="globals/Rez/Layouts" pc="268437539" symbol="MainLayout"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="27" lineNum="32" parent="globals/Rez/Menus/MainMenu" pc="268437566" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="28" lineNum="33" parent="globals/Rez/Menus/MainMenu" pc="268437585" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="28" lineNum="34" parent="globals/Rez/Menus/MainMenu" pc="268437587" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="28" lineNum="35" parent="globals/Rez/Menus/MainMenu" pc="268437605" symbol="initialize"/>
+        <entry filename="/Users/maksimivanov/workspace/vatternrundan-companion/gen/006-B3225-00/source/Rez.mcgen" id="28" lineNum="36" parent="globals/Rez/Menus/MainMenu" pc="268437661" symbol="initialize"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -105,47 +100,49 @@
         <entry id="14" method="true" symbol="setPosition"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="7" module="true" symbol="globals/Rez/Menus"/>
-        <entry id="26" method="true" symbol="MainLayout"/>
-        <entry id="18" method="true" symbol="closest_point"/>
-        <entry field="true" id="21" symbol="&lt;globals/vatternrundancompanionApp/&lt;&gt;_raceStats&gt;"/>
-        <entry id="22" method="true" symbol="onPosition"/>
+        <entry id="30" method="true" symbol="MainLayout"/>
+        <entry field="true" id="26" symbol="&lt;globals/vatternrundancompanionApp/&lt;&gt;_raceStats&gt;"/>
+        <entry field="true" id="18" symbol="current_checkpoint"/>
+        <entry id="27" method="true" symbol="onPosition"/>
+        <entry field="true" id="21" symbol="next_checkpoint"/>
+        <entry field="true" id="19" symbol="distances"/>
         <entry id="10" object="true" symbol="vatternrundancompanionApp"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="28" symbol="AppName"/>
+        <entry field="true" id="32" symbol="AppName"/>
         <entry id="8" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8389080" method="true" symbol="onMenu"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
         <entry id="8389345" symbol="rezId"/>
+        <entry field="true" id="22" symbol="race_route"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
         <entry id="11" object="true" symbol="vatternrundancompanionDelegate"/>
         <entry id="13" object="true" symbol="vatternrundancompanionView"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry field="true" id="31" symbol="prompt"/>
-        <entry field="true" id="25" symbol="id_monkey"/>
+        <entry field="true" id="35" symbol="prompt"/>
+        <entry field="true" id="29" symbol="id_monkey"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
-        <entry id="19" method="true" symbol="haversine"/>
+        <entry id="20" method="true" symbol="haversine"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
-        <entry id="34" symbol="item_2"/>
-        <entry id="33" symbol="item_1"/>
+        <entry id="38" symbol="item_2"/>
+        <entry id="37" symbol="item_1"/>
         <entry id="16" module="true" symbol="Menus"/>
         <entry id="8389275" method="true" symbol="getApp"/>
         <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
         <entry field="true" id="8389063" symbol="identifier"/>
         <entry id="8389349" symbol="justification"/>
+        <entry field="true" id="23" symbol="total_distance"/>
         <entry id="5" module="true" symbol="globals/Rez/JsonData"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-        <entry id="27" object="true" symbol="MainMenu"/>
+        <entry id="31" object="true" symbol="MainMenu"/>
         <entry id="8388644" module="true" symbol="System"/>
-        <entry id="8388645" module="true" symbol="Time"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
         <entry id="8388640" module="true" symbol="Lang"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-        <entry field="true" id="23" symbol="&lt;globals/vatternrundancompanionApp/&lt;&gt;raceRouteData&gt;"/>
-        <entry field="true" id="24" symbol="LauncherIcon"/>
+        <entry field="true" id="28" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
         <entry id="8389350" module="true" symbol="globals"/>
@@ -159,63 +156,53 @@
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry id="8389109" method="true" symbol="onMenuItem"/>
         <entry id="8389347" symbol="color"/>
+        <entry id="24" method="true" symbol="update_checkpoints"/>
         <entry id="15" module="true" symbol="Layouts"/>
         <entry id="8388642" module="true" symbol="Position"/>
         <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
         <entry id="8389125" method="true" symbol="onHide"/>
-        <entry field="true" id="32" symbol="raceRoute"/>
+        <entry field="true" id="36" symbol="raceRoute"/>
         <entry id="8388635" module="true" symbol="Application"/>
         <entry id="9" object="true" symbol="RaceStats"/>
-        <entry field="true" id="30" symbol="menu_label_2"/>
-        <entry field="true" id="29" symbol="menu_label_1"/>
-        <entry field="true" id="20" symbol="&lt;globals/vatternrundancompanionApp/&lt;&gt;_positionView&gt;"/>
+        <entry field="true" id="34" symbol="menu_label_2"/>
+        <entry field="true" id="33" symbol="menu_label_1"/>
+        <entry field="true" id="25" symbol="&lt;globals/vatternrundancompanionApp/&lt;&gt;_positionView&gt;"/>
     </symbolTable>
     <localVars>
         <entry arg="true" endPc="268435522" name="dc" stackId="1" startPc="268435479"/>
         <entry arg="true" endPc="268435566" name="dc" stackId="1" startPc="268435544"/>
-        <entry arg="true" endPc="268435731" name="info" stackId="1" startPc="268435567"/>
-        <entry arg="true" endPc="268435731" name="raceRouteData" stackId="2" startPc="268435567"/>
-        <entry arg="true" endPc="268435731" name="raceStats" stackId="3" startPc="268435567"/>
-        <entry endPc="268435730" name="position" stackId="4" startPc="268435571"/>
-        <entry endPc="268435730" name="lat" stackId="5" startPc="268435571"/>
-        <entry endPc="268435730" name="lon" stackId="6" startPc="268435571"/>
-        <entry endPc="268435730" name="checkpoints" stackId="7" startPc="268435571"/>
-        <entry endPc="268435730" name="keys" stackId="8" startPc="268435571"/>
-        <entry endPc="268435730" name="raceStatsData" stackId="9" startPc="268435571"/>
-        <entry arg="true" endPc="268436096" name="coord1" stackId="1" startPc="268435782"/>
-        <entry arg="true" endPc="268436096" name="coord2" stackId="2" startPc="268435782"/>
-        <entry endPc="268436096" name="lon1" stackId="3" startPc="268435786"/>
-        <entry endPc="268436096" name="lat1" stackId="4" startPc="268435786"/>
-        <entry endPc="268436096" name="lon2" stackId="5" startPc="268435786"/>
-        <entry endPc="268436096" name="lat2" stackId="6" startPc="268435786"/>
-        <entry endPc="268436096" name="dlat" stackId="7" startPc="268435786"/>
-        <entry endPc="268436096" name="dlon" stackId="8" startPc="268435786"/>
-        <entry endPc="268436096" name="a" stackId="9" startPc="268435786"/>
-        <entry endPc="268436096" name="c" stackId="10" startPc="268435786"/>
-        <entry arg="true" endPc="268436209" name="target" stackId="1" startPc="268436097"/>
-        <entry arg="true" endPc="268436209" name="points" stackId="2" startPc="268436097"/>
-        <entry endPc="268436209" name="min_distance" stackId="3" startPc="268436101"/>
-        <entry endPc="268436209" name="min_index" stackId="4" startPc="268436101"/>
-        <entry endPc="268436206" name="i" stackId="5" startPc="268436155"/>
-        <entry endPc="268436193" name="current_distance" stackId="6" startPc="268436155"/>
-        <entry arg="true" endPc="268436597" name="current_location" stackId="1" startPc="268436210"/>
-        <entry arg="true" endPc="268436597" name="race_route" stackId="2" startPc="268436210"/>
-        <entry endPc="268436597" name="total_distance" stackId="3" startPc="268436214"/>
-        <entry endPc="268436597" name="distances" stackId="4" startPc="268436214"/>
-        <entry endPc="268436342" name="i" stackId="5" startPc="268436288"/>
-        <entry endPc="268436597" name="progress_point" stackId="6" startPc="268436214"/>
-        <entry endPc="268436597" name="progress_index" stackId="7" startPc="268436214"/>
-        <entry endPc="268436597" name="progress_distance" stackId="8" startPc="268436214"/>
-        <entry endPc="268436525" name="i" stackId="9" startPc="268436477"/>
-        <entry endPc="268436597" name="race_completion" stackId="10" startPc="268436214"/>
-        <entry endPc="268436597" name="kms_left" stackId="11" startPc="268436214"/>
-        <entry arg="true" endPc="268436726" name="state" stackId="1" startPc="268436617"/>
-        <entry arg="true" endPc="268436765" name="info" stackId="1" startPc="268436727"/>
-        <entry arg="true" endPc="268436953" name="state" stackId="1" startPc="268436914"/>
-        <entry arg="true" endPc="268437175" name="item" stackId="1" startPc="268437103"/>
-        <entry arg="true" endPc="268437511" name="dc" stackId="1" startPc="268437197"/>
-        <entry endPc="268437511" name="rez_cmp_local_text_2087281295" stackId="2" startPc="268437209"/>
-        <entry endPc="268437511" name="rez_cmp_local_bitmap_id_monkey" stackId="3" startPc="268437209"/>
+        <entry arg="true" endPc="268435700" name="info" stackId="1" startPc="268435567"/>
+        <entry arg="true" endPc="268435700" name="raceStats" stackId="2" startPc="268435567"/>
+        <entry endPc="268435699" name="position" stackId="3" startPc="268435571"/>
+        <entry endPc="268435699" name="lat" stackId="4" startPc="268435571"/>
+        <entry endPc="268435699" name="lon" stackId="5" startPc="268435571"/>
+        <entry endPc="268435699" name="raceStatsData" stackId="6" startPc="268435571"/>
+        <entry arg="true" endPc="268436065" name="coord1" stackId="1" startPc="268435751"/>
+        <entry arg="true" endPc="268436065" name="coord2" stackId="2" startPc="268435751"/>
+        <entry endPc="268436065" name="lon1" stackId="3" startPc="268435755"/>
+        <entry endPc="268436065" name="lat1" stackId="4" startPc="268435755"/>
+        <entry endPc="268436065" name="lon2" stackId="5" startPc="268435755"/>
+        <entry endPc="268436065" name="lat2" stackId="6" startPc="268435755"/>
+        <entry endPc="268436065" name="dlat" stackId="7" startPc="268435755"/>
+        <entry endPc="268436065" name="dlon" stackId="8" startPc="268435755"/>
+        <entry endPc="268436065" name="a" stackId="9" startPc="268435755"/>
+        <entry endPc="268436065" name="c" stackId="10" startPc="268435755"/>
+        <entry arg="true" endPc="268436258" name="current_location" stackId="1" startPc="268436066"/>
+        <entry endPc="268436258" name="progress_distance" stackId="2" startPc="268436070"/>
+        <entry endPc="268436174" name="i" stackId="3" startPc="268436146"/>
+        <entry endPc="268436258" name="race_completion" stackId="4" startPc="268436070"/>
+        <entry endPc="268436258" name="kms_left" stackId="5" startPc="268436070"/>
+        <entry endPc="268436516" name="race_data" stackId="1" startPc="268436263"/>
+        <entry endPc="268436516" name="i" stackId="2" startPc="268436429"/>
+        <entry arg="true" endPc="268436706" name="current_location" stackId="1" startPc="268436518"/>
+        <entry arg="true" endPc="268436706" name="race_route" stackId="2" startPc="268436518"/>
+        <entry arg="true" endPc="268436788" name="state" stackId="1" startPc="268436726"/>
+        <entry arg="true" endPc="268436819" name="info" stackId="1" startPc="268436789"/>
+        <entry arg="true" endPc="268437007" name="state" stackId="1" startPc="268436968"/>
+        <entry arg="true" endPc="268437229" name="item" stackId="1" startPc="268437157"/>
+        <entry arg="true" endPc="268437565" name="dc" stackId="1" startPc="268437251"/>
+        <entry endPc="268437565" name="rez_cmp_local_text_9743296719" stackId="2" startPc="268437263"/>
+        <entry endPc="268437565" name="rez_cmp_local_bitmap_id_monkey" stackId="3" startPc="268437263"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -231,16 +218,16 @@
         <dataEntry label="globals/vatternrundancompanionView" offset="182" parentId="globals" symbolId="vatternrundancompanionView" type="class"/>
         <dataEntry label="globals/Rez" offset="269" parentId="globals" symbolId="Rez" type="module"/>
         <dataEntry label="globals/RaceStats" offset="348" parentId="globals" symbolId="RaceStats" type="class"/>
-        <dataEntry label="globals/vatternrundancompanionApp" offset="419" parentId="globals" symbolId="vatternrundancompanionApp" type="class"/>
-        <dataEntry label="globals/vatternrundancompanionDelegate" offset="522" parentId="globals" symbolId="vatternrundancompanionDelegate" type="class"/>
-        <dataEntry label="globals/vatternrundancompanionMenuDelegate" offset="577" parentId="globals" symbolId="vatternrundancompanionMenuDelegate" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="632" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="679" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="718" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Fonts" offset="757" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="788" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Rez/JsonData" offset="851" parentId="Rez" symbolId="JsonData" type="module"/>
-        <dataEntry label="globals/Rez/Menus/MainMenu" offset="890" parentId="Menus" symbolId="MainMenu" type="class"/>
+        <dataEntry label="globals/vatternrundancompanionApp" offset="459" parentId="globals" symbolId="vatternrundancompanionApp" type="class"/>
+        <dataEntry label="globals/vatternrundancompanionDelegate" offset="554" parentId="globals" symbolId="vatternrundancompanionDelegate" type="class"/>
+        <dataEntry label="globals/vatternrundancompanionMenuDelegate" offset="609" parentId="globals" symbolId="vatternrundancompanionMenuDelegate" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="664" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="711" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="750" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="789" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="820" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="883" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/Rez/Menus/MainMenu" offset="922" parentId="Menus" symbolId="MainMenu" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="vatternrundancompanionView" startPc="268435460">
@@ -263,77 +250,75 @@
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435731" name="setPosition" parent="vatternrundancompanionView" startPc="268435567">
+        <functionEntry accessMode="public" endPc="268435700" name="setPosition" parent="vatternrundancompanionView" startPc="268435567">
             <param id="info"/>
-            <param id="raceRouteData"/>
             <param id="raceStats"/>
             <documentation><![CDATA[<div class="description"> Set the position<br/> <div class="param"> info Position information</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435757" name="getApp" startPc="268435732">
+        <functionEntry accessMode="public" endPc="268435726" name="getApp" startPc="268435701">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435781" name="&lt;init&gt;" parent="Rez" startPc="268435758">
+        <functionEntry accessMode="public" endPc="268435750" name="&lt;init&gt;" parent="Rez" startPc="268435727">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="RaceStats">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436096" name="haversine" parent="RaceStats" startPc="268435782">
+        <functionEntry accessMode="public" endPc="268436065" name="haversine" parent="RaceStats" startPc="268435751">
             <param id="coord1"/>
             <param id="coord2"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436209" name="closest_point" parent="RaceStats" startPc="268436097">
-            <param id="target"/>
-            <param id="points"/>
+        <functionEntry accessMode="public" endPc="268436258" name="calculate_race_stats" parent="RaceStats" startPc="268436066">
+            <param id="current_location"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436597" name="calculate_race_stats" parent="RaceStats" startPc="268436210">
+        <functionEntry accessMode="public" endPc="268436517" name="initialize" parent="RaceStats" startPc="268436259">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436706" name="update_checkpoints" parent="RaceStats" startPc="268436518">
             <param id="current_location"/>
             <param id="race_route"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" name="initialize" parent="RaceStats">
+        <functionEntry accessMode="public" endPc="268436725" name="&lt;init&gt;" parent="vatternrundancompanionApp" startPc="268436707">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436616" name="&lt;init&gt;" parent="vatternrundancompanionApp" startPc="268436598">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436726" name="onStart" parent="vatternrundancompanionApp" startPc="268436617">
+        <functionEntry accessMode="public" endPc="268436788" name="onStart" parent="vatternrundancompanionApp" startPc="268436726">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436765" name="onPosition" parent="vatternrundancompanionApp" startPc="268436727">
+        <functionEntry accessMode="public" endPc="268436819" name="onPosition" parent="vatternrundancompanionApp" startPc="268436789">
             <param id="info"/>
             <documentation><![CDATA[<div class="description"> Update the current position<br/> <div class="param"> info Position information</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436824" name="getInitialView" parent="vatternrundancompanionApp" startPc="268436766">
+        <functionEntry accessMode="public" endPc="268436878" name="getInitialView" parent="vatternrundancompanionApp" startPc="268436820">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436913" name="initialize" parent="vatternrundancompanionApp" startPc="268436825">
+        <functionEntry accessMode="public" endPc="268436967" name="initialize" parent="vatternrundancompanionApp" startPc="268436879">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436953" name="onStop" parent="vatternrundancompanionApp" startPc="268436914">
+        <functionEntry accessMode="public" endPc="268437007" name="onStop" parent="vatternrundancompanionApp" startPc="268436968">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436972" name="&lt;init&gt;" parent="vatternrundancompanionDelegate" startPc="268436954">
+        <functionEntry accessMode="public" endPc="268437026" name="&lt;init&gt;" parent="vatternrundancompanionDelegate" startPc="268437008">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437062" name="onMenu" parent="vatternrundancompanionDelegate" startPc="268436973">
+        <functionEntry accessMode="public" endPc="268437116" name="onMenu" parent="vatternrundancompanionDelegate" startPc="268437027">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437083" name="initialize" parent="vatternrundancompanionDelegate" startPc="268437063">
+        <functionEntry accessMode="public" endPc="268437137" name="initialize" parent="vatternrundancompanionDelegate" startPc="268437117">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437102" name="&lt;init&gt;" parent="vatternrundancompanionMenuDelegate" startPc="268437084">
+        <functionEntry accessMode="public" endPc="268437156" name="&lt;init&gt;" parent="vatternrundancompanionMenuDelegate" startPc="268437138">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437175" name="onMenuItem" parent="vatternrundancompanionMenuDelegate" startPc="268437103">
+        <functionEntry accessMode="public" endPc="268437229" name="onMenuItem" parent="vatternrundancompanionMenuDelegate" startPc="268437157">
             <param id="item"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437196" name="initialize" parent="vatternrundancompanionMenuDelegate" startPc="268437176">
+        <functionEntry accessMode="public" endPc="268437250" name="initialize" parent="vatternrundancompanionMenuDelegate" startPc="268437230">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
@@ -354,14 +339,14 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437511" name="MainLayout" parent="Layouts" startPc="268437197">
+        <functionEntry accessMode="public" endPc="268437565" name="MainLayout" parent="Layouts" startPc="268437251">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437530" name="&lt;init&gt;" parent="MainMenu" startPc="268437512">
+        <functionEntry accessMode="public" endPc="268437584" name="&lt;init&gt;" parent="MainMenu" startPc="268437566">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437663" name="initialize" parent="MainMenu" startPc="268437531">
+        <functionEntry accessMode="public" endPc="268437717" name="initialize" parent="MainMenu" startPc="268437585">
             <documentation/>
         </functionEntry>
     </functions>

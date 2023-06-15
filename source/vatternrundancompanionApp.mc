@@ -5,21 +5,19 @@ import Toybox.Position;
 
 class vatternrundancompanionApp extends Application.AppBase {
 
-    private var raceRouteData;
     private var _positionView as vatternrundancompanionView;
     private var _raceStats as RaceStats;
 
     function initialize() {
         AppBase.initialize();
-	_raceStats = new $.RaceStats();
         _positionView = new $.vatternrundancompanionView();
+	_raceStats = new $.RaceStats();
     }
 
     // onStart() is called on application start up
     function onStart(state as Dictionary?) as Void {
         // load race route data
         System.println( "Hello Monkey C!" );
-        raceRouteData = WatchUi.loadResource(Rez.JsonData.raceRoute);
         Position.enableLocationEvents(Position.LOCATION_CONTINUOUS, method(:onPosition));
     }
 
@@ -31,7 +29,7 @@ class vatternrundancompanionApp extends Application.AppBase {
     //! Update the current position
     //! @param info Position information
     public function onPosition(info as Info) as Void {
-	    _positionView.setPosition(info, raceRouteData, _raceStats);
+	    _positionView.setPosition(info, _raceStats);
     }
 
     // Return the initial view of your application here

@@ -1,9 +1,26 @@
-using Toybox.Lang;
 using Toybox.Math;
-using Toybox.Time;
 
 class RaceStats {
     static const R = 6371;  // Radius of the earth in km
+
+    hidden var current_checkpoint;
+    hidden var next_checkpoint;
+    hidden var total_distance;
+    hidden var distances;
+    hidden var race_route;
+
+    function initialize() {
+        var race_data = WatchUi.loadResource(Rez.JsonData.raceRoute);
+	race_route = race_data["route"];
+        current_checkpoint = 0;
+        next_checkpoint = 1;
+        total_distance = 0;
+        distances = new [race_route.size() - 1];
+        for (var i = 0; i < race_route.size() - 1; i++) {
+            distances[i] = haversine(race_route[i], race_route[i + 1]);
+            total_distance += distances[i];
+        }
+    }
 
     function haversine(coord1, coord2) {
         var lon1 = coord1[0];
@@ -17,37 +34,22 @@ class RaceStats {
         return R * c;  // Distance in km
     }
 
-
-    function closest_point(target, points) {
-        var min_distance = haversine(target, points[0]);
-        var min_index = 0;
-        for (var i = 1; i < points.size(); i++) {
-            var current_distance = haversine(target, points[i]);
-            if (current_distance < min_distance) {
-                min_distance = current_distance;
-                min_index = i;
-            }
+    function update_checkpoints(current_location, race_route) {
+	System.println("current_location: " + current_location);
+	System.println("next_checkpoint: " + race_route[next_checkpoint]);
+	System.println("current_checkpoint: " + race_route[current_checkpoint]);
+        if (haversine(current_location, race_route[next_checkpoint]) < haversine(current_location, race_route[current_checkpoint])) {
+            current_checkpoint = next_checkpoint;
+            next_checkpoint += 1;
         }
-        return min_index;
     }
 
-    function calculate_race_stats(current_location, race_route) {
-        System.println("calculate_race_stats ------");
-        var total_distance = 0;
-        var distances = new [race_route.size()];
-        for (var i = 0; i < race_route.size() - 1; i++) {
-            distances[i] = haversine(race_route[i], race_route[i+1]);
-            total_distance += distances[i];
-        }
-	System.println("Total distance " + total_distance);
-        var progress_point = closest_point(current_location, race_route);
-	System.println("Progress point " + progress_point);
-        var progress_index = closest_point(current_location, race_route);
-	System.println("Progress index " + progress_index);
+    function calculate_race_stats(current_location) {
+	System.println("current_location: " + current_location);
+        update_checkpoints(current_location, race_route);
         var progress_distance = 0;
-        for (var i = 0; i < progress_index; i++) {
+        for (var i = 0; i < current_checkpoint; i++) {
             progress_distance += distances[i];
-	    System.println("--- Progress distance " + progress_distance);
         }
         var race_completion = Math.round((progress_distance / total_distance) * 100);
         var kms_left = total_distance - progress_distance;

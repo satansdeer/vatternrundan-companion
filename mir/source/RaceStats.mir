@@ -1,57 +1,150 @@
 [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc"; @line = 1; ]
-using Toybox.Lang;
-[ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc"; @line = 2; ]
 using Toybox.Math;
 [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc"; @line = 3; ]
-using Toybox.Time;
-[ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc"; @line = 5; ]
 class RaceStats{
-    [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc"; @line = 5; ]
+    [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc"; @line = 3; ]
     <init> {
     }
-    [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc"; @line = 5; ]
+    [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc"; @line = 3; ]
     static
     <init> {
     }
-    [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc"; @line = 5; ]
-    function initialize() as Void {
-    }
-    [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc"; @line = 6; @position = 17; ]
+    [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc"; @line = 4; @position = 17; ]
     static
     const R = 6371;
-    [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc"; @line = 8; ]
+    [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc"; @line = 6; @position = 15; ]
+    protected
+    var current_checkpoint;
+    [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc"; @line = 7; @position = 15; ]
+    protected
+    var next_checkpoint;
+    [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc"; @line = 8; @position = 15; ]
+    protected
+    var total_distance;
+    [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc"; @line = 9; @position = 15; ]
+    protected
+    var distances;
+    [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc"; @line = 10; @position = 15; ]
+    protected
+    var race_route;
+    [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc"; @line = 12; ]
+    function initialize() as Void {
+_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_12_26_start:
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 13 8 ]
+        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_12_26_start" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_12_26_stop" ]
+        %race_data.1 = local;
+        %tmp.2 = getv ? :WatchUi;
+        %tmp.3 = getv function %tmp.2 :loadResource;
+        %tmp.5 = getv ? :Rez;
+        %tmp.6 = getv %tmp.5 :JsonData;
+        %tmp.7 = getv %tmp.6 :raceRoute;
+        %tmp.8 = invoke %tmp.2 %tmp.3(%tmp.7);
+        lputv %race_data.1 %tmp.8;
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 14 1 ]
+        %tmp.10 = lgetv %race_data.1;
+        %tmp.11 = "route";
+        %tmp.12 = agetv %tmp.10 %tmp.11;
+        putv self :race_route %tmp.12;
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 15 8 ]
+        %tmp.13 = 0;
+        putv self :current_checkpoint %tmp.13;
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 16 8 ]
+        %tmp.14 = 1;
+        putv self :next_checkpoint %tmp.14;
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 17 8 ]
+        %tmp.15 = 0;
+        putv self :total_distance %tmp.15;
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 18 8 ]
+        %tmp.18 = getv ? :race_route;
+        %tmp.19 = getv function %tmp.18 :size;
+        %tmp.20 = invoke %tmp.18 %tmp.19();
+        %tmp.21 = 1;
+        %tmp.22 = sub %tmp.20 %tmp.21;
+        %tmp.16 = newa %tmp.22;
+        putv self :distances %tmp.16;
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 19 8 ]
+        for @_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_19_8_for_test @_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_19_8_for_incr @_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_19_8_for_end;
+_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_19_8_for_init:
+        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_19_8_for_begin" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_19_8_for_end" ]
+        %i.2 = local;
+        %tmp.23 = 0;
+        lputv %i.2 %tmp.23;
+_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_19_8_for_test:
+        %tmp.25 = lgetv %i.2;
+        %tmp.27 = getv ? :race_route;
+        %tmp.28 = getv function %tmp.27 :size;
+        %tmp.29 = invoke %tmp.27 %tmp.28();
+        %tmp.30 = 1;
+        %tmp.31 = sub %tmp.29 %tmp.30;
+        %tmp.32 = lt %tmp.25 %tmp.31;
+        bf %tmp.32 @_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_19_8_for_end;
+_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_19_8_for_begin:
+_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_19_56_start:
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 20 12 ]
+        %tmp.33 = getv self :distances;
+        %tmp.34 = self;
+        %tmp.35 = getv function %tmp.34 :haversine;
+        %tmp.37 = getv ? :race_route;
+        %tmp.39 = lgetv %i.2;
+        %tmp.40 = agetv %tmp.37 %tmp.39;
+        %tmp.42 = getv ? :race_route;
+        %tmp.44 = lgetv %i.2;
+        %tmp.45 = 1;
+        %tmp.46 = add %tmp.44 %tmp.45;
+        %tmp.47 = agetv %tmp.42 %tmp.46;
+        %tmp.48 = invoke %tmp.34 %tmp.35(%tmp.40, %tmp.47);
+        %tmp.50 = lgetv %i.2;
+        aputv %tmp.33 %tmp.50 %tmp.48;
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 21 12 ]
+        %tmp.51 = getv self :total_distance;
+        %tmp.53 = getv ? :distances;
+        %tmp.55 = lgetv %i.2;
+        %tmp.56 = agetv %tmp.53 %tmp.55;
+        %tmp.57 = add %tmp.51 %tmp.56;
+        putv self :total_distance dup %tmp.57;
+_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_19_56_stop:
+_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_19_8_for_incr:
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 19 ]
+        %tmp.60 = lgetv %i.2;
+        %tmp.61 = add %tmp.60 1;
+        lputv %i.2 %tmp.61;
+        goto @_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_19_8_for_test;
+_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_19_8_for_end:
+_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_12_26_stop:
+    }
+    [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc"; @line = 25; ]
     function haversine(coord1, coord2) {
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_8_39_start:
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 9 8 ]
-        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_8_39_start" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_8_39_stop" ]
+_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_25_39_start:
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 26 8 ]
+        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_25_39_start" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_25_39_stop" ]
         %lon1.1 = local;
         %tmp.2 = lgetv %coord1;
         %tmp.3 = 0;
         %tmp.4 = agetv %tmp.2 %tmp.3;
         lputv %lon1.1 %tmp.4;
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 10 8 ]
-        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_8_39_start" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_8_39_stop" ]
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 27 8 ]
+        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_25_39_start" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_25_39_stop" ]
         %lat1.2 = local;
         %tmp.6 = lgetv %coord1;
         %tmp.7 = 1;
         %tmp.8 = agetv %tmp.6 %tmp.7;
         lputv %lat1.2 %tmp.8;
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 11 8 ]
-        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_8_39_start" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_8_39_stop" ]
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 28 8 ]
+        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_25_39_start" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_25_39_stop" ]
         %lon2.3 = local;
         %tmp.10 = lgetv %coord2;
         %tmp.11 = 0;
         %tmp.12 = agetv %tmp.10 %tmp.11;
         lputv %lon2.3 %tmp.12;
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 12 8 ]
-        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_8_39_start" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_8_39_stop" ]
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 29 8 ]
+        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_25_39_start" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_25_39_stop" ]
         %lat2.4 = local;
         %tmp.14 = lgetv %coord2;
         %tmp.15 = 1;
         %tmp.16 = agetv %tmp.14 %tmp.15;
         lputv %lat2.4 %tmp.16;
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 13 8 ]
-        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_8_39_start" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_8_39_stop" ]
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 30 8 ]
+        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_25_39_start" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_25_39_stop" ]
         %dlat.5 = local;
         %tmp.17 = getm $.Toybox.Math;
         %tmp.18 = getv function %tmp.17 :toRadians;
@@ -60,8 +153,8 @@ _Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_8_39_s
         %tmp.23 = sub %tmp.20 %tmp.22;
         %tmp.24 = invoke %tmp.17 %tmp.18(%tmp.23);
         lputv %dlat.5 %tmp.24;
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 14 8 ]
-        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_8_39_start" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_8_39_stop" ]
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 31 8 ]
+        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_25_39_start" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_25_39_stop" ]
         %dlon.6 = local;
         %tmp.25 = getm $.Toybox.Math;
         %tmp.26 = getv function %tmp.25 :toRadians;
@@ -70,8 +163,8 @@ _Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_8_39_s
         %tmp.31 = sub %tmp.28 %tmp.30;
         %tmp.32 = invoke %tmp.25 %tmp.26(%tmp.31);
         lputv %dlon.6 %tmp.32;
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 15 8 ]
-        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_8_39_start" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_8_39_stop" ]
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 32 8 ]
+        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_25_39_start" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_25_39_stop" ]
         %a.7 = local;
         %tmp.33 = getm $.Toybox.Math;
         %tmp.34 = getv function %tmp.33 :pow;
@@ -111,8 +204,8 @@ _Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_8_39_s
         %tmp.72 = mul %tmp.60 %tmp.71;
         %tmp.73 = add %tmp.43 %tmp.72;
         lputv %a.7 %tmp.73;
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 16 8 ]
-        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_8_39_start" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_8_39_stop" ]
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 33 8 ]
+        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_25_39_start" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_25_39_stop" ]
         %c.8 = local;
         %tmp.74 = 2;
         %tmp.75 = getm $.Toybox.Math;
@@ -130,270 +223,156 @@ _Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_8_39_s
         %tmp.89 = invoke %tmp.75 %tmp.76(%tmp.81, %tmp.88);
         %tmp.90 = mul %tmp.74 %tmp.89;
         lputv %c.8 %tmp.90;
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 17 8 ]
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 34 8 ]
         %tmp.92 = getv ? :R;
         %tmp.94 = lgetv %c.8;
         %tmp.95 = mul %tmp.92 %tmp.94;
         ret %tmp.95;
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_8_39_stop:
+_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_25_39_stop:
     }
-    [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc"; @line = 21; ]
-    function closest_point(target, points) {
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_21_43_start:
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 22 8 ]
-        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_21_43_start" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_21_43_stop" ]
-        %min_distance.1 = local;
-        %tmp.1 = self;
-        %tmp.2 = getv function %tmp.1 :haversine;
-        %tmp.4 = lgetv %target;
-        %tmp.6 = lgetv %points;
-        %tmp.7 = 0;
-        %tmp.8 = agetv %tmp.6 %tmp.7;
-        %tmp.9 = invoke %tmp.1 %tmp.2(%tmp.4, %tmp.8);
-        lputv %min_distance.1 %tmp.9;
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 23 8 ]
-        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_21_43_start" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_21_43_stop" ]
-        %min_index.2 = local;
-        %tmp.10 = 0;
-        lputv %min_index.2 %tmp.10;
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 24 8 ]
-        for @_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_24_8_for_test @_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_24_8_for_incr @_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_24_8_for_end;
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_24_8_for_init:
-        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_24_8_for_begin" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_24_8_for_end" ]
-        %i.3 = local;
-        %tmp.11 = 1;
-        lputv %i.3 %tmp.11;
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_24_8_for_test:
-        %tmp.13 = lgetv %i.3;
-        %tmp.14 = lgetv %points;
-        %tmp.15 = getv function %tmp.14 :size;
-        %tmp.16 = invoke %tmp.14 %tmp.15();
-        %tmp.17 = lt %tmp.13 %tmp.16;
-        bf %tmp.17 @_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_24_8_for_end;
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_24_8_for_begin:
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_24_48_start:
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 25 12 ]
-        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_24_48_start" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_24_48_stop" ]
-        %current_distance.4 = local;
-        %tmp.18 = self;
-        %tmp.19 = getv function %tmp.18 :haversine;
-        %tmp.21 = lgetv %target;
-        %tmp.23 = lgetv %points;
-        %tmp.25 = lgetv %i.3;
-        %tmp.26 = agetv %tmp.23 %tmp.25;
-        %tmp.27 = invoke %tmp.18 %tmp.19(%tmp.21, %tmp.26);
-        lputv %current_distance.4 %tmp.27;
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 26 12 ]
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_26_12_if_stmt:
-        %tmp.29 = lgetv %current_distance.4;
-        %tmp.31 = lgetv %min_distance.1;
-        %tmp.32 = lt %tmp.29 %tmp.31;
-        bf %tmp.32 @_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_26_12_if_end;
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_26_12_if_true:
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_26_49_start:
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 27 16 ]
-        %tmp.34 = lgetv %current_distance.4;
-        lputv %min_distance.1 %tmp.34;
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 28 16 ]
-        %tmp.36 = lgetv %i.3;
-        lputv %min_index.2 %tmp.36;
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_26_49_stop:
-        goto @_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_26_12_if_end;
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_26_12_if_end:
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_24_48_stop:
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_24_8_for_incr:
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 24 ]
-        %tmp.39 = lgetv %i.3;
-        %tmp.40 = add %tmp.39 1;
-        lputv %i.3 %tmp.40;
-        goto @_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_24_8_for_test;
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_24_8_for_end:
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 31 8 ]
-        %tmp.42 = lgetv %min_index.2;
-        ret %tmp.42;
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_21_43_stop:
-    }
-    [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc"; @line = 34; ]
-    function calculate_race_stats(current_location, race_route) {
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_34_64_start:
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 35 8 ]
+    [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc"; @line = 37; ]
+    function update_checkpoints(current_location, race_route) {
+_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_37_62_start:
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 38 1 ]
         %tmp.2 = getv ? :System;
         %tmp.3 = getv function %tmp.2 :println;
-        %tmp.4 = "calculate_race_stats ------";
-        invoke %tmp.2 %tmp.3(%tmp.4);
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 36 8 ]
-        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_34_64_start" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_34_64_stop" ]
-        %total_distance.1 = local;
-        %tmp.5 = 0;
-        lputv %total_distance.1 %tmp.5;
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 37 8 ]
-        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_34_64_start" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_34_64_stop" ]
-        %distances.2 = local;
-        %tmp.7 = lgetv %race_route;
-        %tmp.8 = getv function %tmp.7 :size;
-        %tmp.9 = invoke %tmp.7 %tmp.8();
-        %tmp.6 = newa %tmp.9;
-        lputv %distances.2 %tmp.6;
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 38 8 ]
-        for @_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_38_8_for_test @_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_38_8_for_incr @_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_38_8_for_end;
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_38_8_for_init:
-        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_38_8_for_begin" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_38_8_for_end" ]
-        %i.3 = local;
-        %tmp.10 = 0;
-        lputv %i.3 %tmp.10;
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_38_8_for_test:
-        %tmp.12 = lgetv %i.3;
+        %tmp.4 = "current_location: ";
+        %tmp.6 = lgetv %current_location;
+        %tmp.7 = add %tmp.4 %tmp.6;
+        invoke %tmp.2 %tmp.3(%tmp.7);
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 39 1 ]
+        %tmp.9 = getv ? :System;
+        %tmp.10 = getv function %tmp.9 :println;
+        %tmp.11 = "next_checkpoint: ";
         %tmp.13 = lgetv %race_route;
-        %tmp.14 = getv function %tmp.13 :size;
-        %tmp.15 = invoke %tmp.13 %tmp.14();
-        %tmp.16 = 1;
-        %tmp.17 = sub %tmp.15 %tmp.16;
-        %tmp.18 = lt %tmp.12 %tmp.17;
-        bf %tmp.18 @_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_38_8_for_end;
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_38_8_for_begin:
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_38_56_start:
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 39 12 ]
-        %tmp.19 = lgetv %distances.2;
-        %tmp.20 = self;
-        %tmp.21 = getv function %tmp.20 :haversine;
+        %tmp.15 = getv ? :next_checkpoint;
+        %tmp.16 = agetv %tmp.13 %tmp.15;
+        %tmp.17 = add %tmp.11 %tmp.16;
+        invoke %tmp.9 %tmp.10(%tmp.17);
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 40 1 ]
+        %tmp.19 = getv ? :System;
+        %tmp.20 = getv function %tmp.19 :println;
+        %tmp.21 = "current_checkpoint: ";
         %tmp.23 = lgetv %race_route;
-        %tmp.25 = lgetv %i.3;
+        %tmp.25 = getv ? :current_checkpoint;
         %tmp.26 = agetv %tmp.23 %tmp.25;
-        %tmp.28 = lgetv %race_route;
-        %tmp.30 = lgetv %i.3;
-        %tmp.31 = 1;
-        %tmp.32 = add %tmp.30 %tmp.31;
-        %tmp.33 = agetv %tmp.28 %tmp.32;
-        %tmp.34 = invoke %tmp.20 %tmp.21(%tmp.26, %tmp.33);
-        %tmp.36 = lgetv %i.3;
-        aputv %tmp.19 %tmp.36 %tmp.34;
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 40 12 ]
-        %tmp.37 = lgetv %total_distance.1;
-        %tmp.39 = lgetv %distances.2;
-        %tmp.41 = lgetv %i.3;
-        %tmp.42 = agetv %tmp.39 %tmp.41;
-        %tmp.43 = add %tmp.37 %tmp.42;
-        lputv %total_distance.1 %tmp.43;
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_38_56_stop:
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_38_8_for_incr:
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 38 ]
-        %tmp.46 = lgetv %i.3;
-        %tmp.47 = add %tmp.46 1;
-        lputv %i.3 %tmp.47;
-        goto @_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_38_8_for_test;
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_38_8_for_end:
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 42 1 ]
-        %tmp.49 = getv ? :System;
-        %tmp.50 = getv function %tmp.49 :println;
-        %tmp.51 = "Total distance ";
-        %tmp.53 = lgetv %total_distance.1;
-        %tmp.54 = add %tmp.51 %tmp.53;
-        invoke %tmp.49 %tmp.50(%tmp.54);
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 43 8 ]
-        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_34_64_start" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_34_64_stop" ]
-        %progress_point.4 = local;
-        %tmp.55 = self;
-        %tmp.56 = getv function %tmp.55 :closest_point;
-        %tmp.58 = lgetv %current_location;
-        %tmp.60 = lgetv %race_route;
-        %tmp.61 = invoke %tmp.55 %tmp.56(%tmp.58, %tmp.60);
-        lputv %progress_point.4 %tmp.61;
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 44 1 ]
-        %tmp.63 = getv ? :System;
-        %tmp.64 = getv function %tmp.63 :println;
-        %tmp.65 = "Progress point ";
-        %tmp.67 = lgetv %progress_point.4;
-        %tmp.68 = add %tmp.65 %tmp.67;
-        invoke %tmp.63 %tmp.64(%tmp.68);
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 45 8 ]
-        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_34_64_start" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_34_64_stop" ]
-        %progress_index.5 = local;
-        %tmp.69 = self;
-        %tmp.70 = getv function %tmp.69 :closest_point;
-        %tmp.72 = lgetv %current_location;
-        %tmp.74 = lgetv %race_route;
-        %tmp.75 = invoke %tmp.69 %tmp.70(%tmp.72, %tmp.74);
-        lputv %progress_index.5 %tmp.75;
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 46 1 ]
-        %tmp.77 = getv ? :System;
-        %tmp.78 = getv function %tmp.77 :println;
-        %tmp.79 = "Progress index ";
-        %tmp.81 = lgetv %progress_index.5;
-        %tmp.82 = add %tmp.79 %tmp.81;
-        invoke %tmp.77 %tmp.78(%tmp.82);
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 47 8 ]
-        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_34_64_start" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_34_64_stop" ]
-        %progress_distance.6 = local;
-        %tmp.83 = 0;
-        lputv %progress_distance.6 %tmp.83;
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 48 8 ]
-        for @_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_48_8_for_test @_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_48_8_for_incr @_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_48_8_for_end;
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_48_8_for_init:
-        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_48_8_for_begin" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_48_8_for_end" ]
-        %i.7 = local;
-        %tmp.84 = 0;
-        lputv %i.7 %tmp.84;
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_48_8_for_test:
-        %tmp.86 = lgetv %i.7;
-        %tmp.88 = lgetv %progress_index.5;
-        %tmp.89 = lt %tmp.86 %tmp.88;
-        bf %tmp.89 @_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_48_8_for_end;
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_48_8_for_begin:
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_48_49_start:
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 49 12 ]
-        %tmp.90 = lgetv %progress_distance.6;
-        %tmp.92 = lgetv %distances.2;
-        %tmp.94 = lgetv %i.7;
-        %tmp.95 = agetv %tmp.92 %tmp.94;
-        %tmp.96 = add %tmp.90 %tmp.95;
-        lputv %progress_distance.6 %tmp.96;
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 50 5 ]
-        %tmp.98 = getv ? :System;
-        %tmp.99 = getv function %tmp.98 :println;
-        %tmp.100 = "--- Progress distance ";
-        %tmp.102 = lgetv %progress_distance.6;
-        %tmp.103 = add %tmp.100 %tmp.102;
-        invoke %tmp.98 %tmp.99(%tmp.103);
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_48_49_stop:
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_48_8_for_incr:
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 48 ]
-        %tmp.106 = lgetv %i.7;
-        %tmp.107 = add %tmp.106 1;
-        lputv %i.7 %tmp.107;
-        goto @_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_48_8_for_test;
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_48_8_for_end:
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 52 8 ]
-        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_34_64_start" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_34_64_stop" ]
-        %race_completion.8 = local;
-        %tmp.108 = getm $.Toybox.Math;
-        %tmp.109 = getv function %tmp.108 :round;
-        %tmp.111 = lgetv %progress_distance.6;
-        %tmp.113 = lgetv %total_distance.1;
-        %tmp.114 = div %tmp.111 %tmp.113;
-        %tmp.115 = 100;
-        %tmp.116 = mul %tmp.114 %tmp.115;
-        %tmp.117 = invoke %tmp.108 %tmp.109(%tmp.116);
-        lputv %race_completion.8 %tmp.117;
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 53 8 ]
-        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_34_64_start" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_34_64_stop" ]
-        %kms_left.9 = local;
-        %tmp.119 = lgetv %total_distance.1;
-        %tmp.121 = lgetv %progress_distance.6;
-        %tmp.122 = sub %tmp.119 %tmp.121;
-        lputv %kms_left.9 %tmp.122;
+        %tmp.27 = add %tmp.21 %tmp.26;
+        invoke %tmp.19 %tmp.20(%tmp.27);
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 41 8 ]
+_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_41_8_if_stmt:
+        %tmp.28 = self;
+        %tmp.29 = getv function %tmp.28 :haversine;
+        %tmp.31 = lgetv %current_location;
+        %tmp.33 = lgetv %race_route;
+        %tmp.35 = getv ? :next_checkpoint;
+        %tmp.36 = agetv %tmp.33 %tmp.35;
+        %tmp.37 = invoke %tmp.28 %tmp.29(%tmp.31, %tmp.36);
+        %tmp.38 = self;
+        %tmp.39 = getv function %tmp.38 :haversine;
+        %tmp.41 = lgetv %current_location;
+        %tmp.43 = lgetv %race_route;
+        %tmp.45 = getv ? :current_checkpoint;
+        %tmp.46 = agetv %tmp.43 %tmp.45;
+        %tmp.47 = invoke %tmp.38 %tmp.39(%tmp.41, %tmp.46);
+        %tmp.48 = lt %tmp.37 %tmp.47;
+        bf %tmp.48 @_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_41_8_if_end;
+_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_41_8_if_true:
+_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_41_132_start:
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 42 12 ]
+        %tmp.50 = getv ? :next_checkpoint;
+        putv self :current_checkpoint %tmp.50;
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 43 12 ]
+        %tmp.51 = getv self :next_checkpoint;
+        %tmp.52 = 1;
+        %tmp.53 = add %tmp.51 %tmp.52;
+        putv self :next_checkpoint dup %tmp.53;
+_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_41_132_stop:
+        goto @_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_41_8_if_end;
+_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_41_8_if_end:
+_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_37_62_stop:
+    }
+    [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc"; @line = 47; ]
+    function calculate_race_stats(current_location) {
+_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_47_52_start:
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 48 1 ]
+        %tmp.2 = getv ? :System;
+        %tmp.3 = getv function %tmp.2 :println;
+        %tmp.4 = "current_location: ";
+        %tmp.6 = lgetv %current_location;
+        %tmp.7 = add %tmp.4 %tmp.6;
+        invoke %tmp.2 %tmp.3(%tmp.7);
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 49 8 ]
+        %tmp.8 = self;
+        %tmp.9 = getv function %tmp.8 :update_checkpoints;
+        %tmp.11 = lgetv %current_location;
+        %tmp.13 = getv ? :race_route;
+        invoke %tmp.8 %tmp.9(%tmp.11, %tmp.13);
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 50 8 ]
+        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_47_52_start" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_47_52_stop" ]
+        %progress_distance.1 = local;
+        %tmp.14 = 0;
+        lputv %progress_distance.1 %tmp.14;
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 51 8 ]
+        for @_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_51_8_for_test @_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_51_8_for_incr @_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_51_8_for_end;
+_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_51_8_for_init:
+        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_51_8_for_begin" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_51_8_for_end" ]
+        %i.2 = local;
+        %tmp.15 = 0;
+        lputv %i.2 %tmp.15;
+_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_51_8_for_test:
+        %tmp.17 = lgetv %i.2;
+        %tmp.19 = getv ? :current_checkpoint;
+        %tmp.20 = lt %tmp.17 %tmp.19;
+        bf %tmp.20 @_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_51_8_for_end;
+_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_51_8_for_begin:
+_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_51_53_start:
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 52 12 ]
+        %tmp.21 = lgetv %progress_distance.1;
+        %tmp.23 = getv ? :distances;
+        %tmp.25 = lgetv %i.2;
+        %tmp.26 = agetv %tmp.23 %tmp.25;
+        %tmp.27 = add %tmp.21 %tmp.26;
+        lputv %progress_distance.1 %tmp.27;
+_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_51_53_stop:
+_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_51_8_for_incr:
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 51 ]
+        %tmp.30 = lgetv %i.2;
+        %tmp.31 = add %tmp.30 1;
+        lputv %i.2 %tmp.31;
+        goto @_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_51_8_for_test;
+_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_51_8_for_end:
 [ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 54 8 ]
-        %tmp.123 = newa 3;
-        %tmp.125 = lgetv %race_completion.8;
-        %tmp.126 = dup %tmp.123;
-        %tmp.127 = aputv %tmp.126 0 %tmp.125;
-        %tmp.129 = lgetv %progress_distance.6;
-        %tmp.130 = dup %tmp.127;
-        %tmp.131 = aputv %tmp.130 1 %tmp.129;
-        %tmp.133 = lgetv %kms_left.9;
-        %tmp.134 = dup %tmp.131;
-        %tmp.135 = aputv %tmp.134 2 %tmp.133;
-        ret %tmp.135;
-_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_34_64_stop:
+        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_47_52_start" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_47_52_stop" ]
+        %race_completion.3 = local;
+        %tmp.32 = getm $.Toybox.Math;
+        %tmp.33 = getv function %tmp.32 :round;
+        %tmp.35 = lgetv %progress_distance.1;
+        %tmp.37 = getv ? :total_distance;
+        %tmp.38 = div %tmp.35 %tmp.37;
+        %tmp.39 = 100;
+        %tmp.40 = mul %tmp.38 %tmp.39;
+        %tmp.41 = invoke %tmp.32 %tmp.33(%tmp.40);
+        lputv %race_completion.3 %tmp.41;
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 55 8 ]
+        [ "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_47_52_start" "_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_47_52_stop" ]
+        %kms_left.4 = local;
+        %tmp.43 = getv ? :total_distance;
+        %tmp.45 = lgetv %progress_distance.1;
+        %tmp.46 = sub %tmp.43 %tmp.45;
+        lputv %kms_left.4 %tmp.46;
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc" 56 8 ]
+        %tmp.47 = newa 3;
+        %tmp.49 = lgetv %race_completion.3;
+        %tmp.50 = dup %tmp.47;
+        %tmp.51 = aputv %tmp.50 0 %tmp.49;
+        %tmp.53 = lgetv %progress_distance.1;
+        %tmp.54 = dup %tmp.51;
+        %tmp.55 = aputv %tmp.54 1 %tmp.53;
+        %tmp.57 = lgetv %kms_left.4;
+        %tmp.58 = dup %tmp.55;
+        %tmp.59 = aputv %tmp.58 2 %tmp.57;
+        ret %tmp.59;
+_Users_maksimivanov_workspace_vatternrundan_companion_source_RaceStats_mc_47_52_stop:
     }
 }
 [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/RaceStats.mc"; @line = 1; ]

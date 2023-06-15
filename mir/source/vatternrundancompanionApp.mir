@@ -17,64 +17,53 @@ class vatternrundancompanionApp extends Application.AppBase{
     }
     [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc"; @line = 8; @position = 16; ]
     private
-    var raceRouteData;
+    var _positionView as vatternrundancompanionView;
     [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc"; @line = 9; @position = 16; ]
     private
-    var _positionView as vatternrundancompanionView;
-    [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc"; @line = 10; @position = 16; ]
-    private
     var _raceStats as RaceStats;
-    [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc"; @line = 12; ]
+    [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc"; @line = 11; ]
     function initialize() as Void {
-_Users_maksimivanov_workspace_vatternrundan_companion_source_vatternrundancompanionApp_mc_12_26_start:
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" 13 8 ]
+_Users_maksimivanov_workspace_vatternrundan_companion_source_vatternrundancompanionApp_mc_11_26_start:
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" 12 8 ]
         %tmp.2 = getv ? :AppBase;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" 14 1 ]
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" 13 8 ]
         %tmp.7 = getm $;
-        %tmp.8 = getv %tmp.7 :RaceStats;
+        %tmp.8 = getv %tmp.7 :vatternrundancompanionView;
         %tmp.4 = newc %tmp.8 ();
-        putv self :_raceStats %tmp.4;
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" 15 8 ]
+        putv self :_positionView %tmp.4;
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" 14 1 ]
         %tmp.12 = getm $;
-        %tmp.13 = getv %tmp.12 :vatternrundancompanionView;
+        %tmp.13 = getv %tmp.12 :RaceStats;
         %tmp.9 = newc %tmp.13 ();
-        putv self :_positionView %tmp.9;
-_Users_maksimivanov_workspace_vatternrundan_companion_source_vatternrundancompanionApp_mc_12_26_stop:
+        putv self :_raceStats %tmp.9;
+_Users_maksimivanov_workspace_vatternrundan_companion_source_vatternrundancompanionApp_mc_11_26_stop:
     }
-    [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc"; @line = 19; ]
+    [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc"; @line = 18; ]
     function onStart(state as Dictionary or Null) as Void {
-_Users_maksimivanov_workspace_vatternrundan_companion_source_vatternrundancompanionApp_mc_19_51_start:
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" 21 8 ]
+_Users_maksimivanov_workspace_vatternrundan_companion_source_vatternrundancompanionApp_mc_18_51_start:
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" 20 8 ]
         %tmp.2 = getv ? :System;
         %tmp.3 = getv function %tmp.2 :println;
         %tmp.4 = "Hello Monkey C!";
         invoke %tmp.2 %tmp.3(%tmp.4);
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" 22 8 ]
-        %tmp.5 = getm $.Toybox.WatchUi;
-        %tmp.6 = getv function %tmp.5 :loadResource;
-        %tmp.8 = getv ? :Rez;
-        %tmp.9 = getv %tmp.8 :JsonData;
-        %tmp.10 = getv %tmp.9 :raceRoute;
-        %tmp.11 = invoke %tmp.5 %tmp.6(%tmp.10);
-        putv self :raceRouteData %tmp.11;
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" 23 8 ]
-        %tmp.12 = getm $.Toybox.Position;
-        %tmp.13 = getv function %tmp.12 :enableLocationEvents;
-        %tmp.14 = getm $.Toybox.Position;
-        %tmp.15 = getv %tmp.14 :LOCATION_CONTINUOUS;
-        %tmp.16 = self;
-        %tmp.17 = getv function %tmp.16 :method;
-        %tmp.19 = const :onPosition;
-        %tmp.20 = invoke %tmp.16 %tmp.17(%tmp.19);
-        invoke %tmp.12 %tmp.13(%tmp.15, %tmp.20);
-_Users_maksimivanov_workspace_vatternrundan_companion_source_vatternrundancompanionApp_mc_19_51_stop:
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" 21 8 ]
+        %tmp.5 = getm $.Toybox.Position;
+        %tmp.6 = getv function %tmp.5 :enableLocationEvents;
+        %tmp.7 = getm $.Toybox.Position;
+        %tmp.8 = getv %tmp.7 :LOCATION_CONTINUOUS;
+        %tmp.9 = self;
+        %tmp.10 = getv function %tmp.9 :method;
+        %tmp.12 = const :onPosition;
+        %tmp.13 = invoke %tmp.9 %tmp.10(%tmp.12);
+        invoke %tmp.5 %tmp.6(%tmp.8, %tmp.13);
+_Users_maksimivanov_workspace_vatternrundan_companion_source_vatternrundancompanionApp_mc_18_51_stop:
     }
-    [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc"; @line = 27; ]
+    [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc"; @line = 25; ]
     function onStop(state as Dictionary or Null) as Void {
-_Users_maksimivanov_workspace_vatternrundan_companion_source_vatternrundancompanionApp_mc_27_50_start:
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" 28 8 ]
+_Users_maksimivanov_workspace_vatternrundan_companion_source_vatternrundancompanionApp_mc_25_50_start:
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" 26 8 ]
         %tmp.1 = getm $.Toybox.Position;
         %tmp.2 = getv function %tmp.1 :enableLocationEvents;
         %tmp.3 = getm $.Toybox.Position;
@@ -84,27 +73,26 @@ _Users_maksimivanov_workspace_vatternrundan_companion_source_vatternrundancompan
         %tmp.8 = const :onPosition;
         %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
         invoke %tmp.1 %tmp.2(%tmp.4, %tmp.9);
-_Users_maksimivanov_workspace_vatternrundan_companion_source_vatternrundancompanionApp_mc_27_50_stop:
+_Users_maksimivanov_workspace_vatternrundan_companion_source_vatternrundancompanionApp_mc_25_50_stop:
     }
     //! Update the current position
     //! @param info Position information
-    [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc"; @line = 33; ]
+    [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc"; @line = 31; ]
     public
     function onPosition(info as Info) as Void {
-_Users_maksimivanov_workspace_vatternrundan_companion_source_vatternrundancompanionApp_mc_33_53_start:
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" 34 5 ]
+_Users_maksimivanov_workspace_vatternrundan_companion_source_vatternrundancompanionApp_mc_31_53_start:
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" 32 5 ]
         %tmp.2 = getv ? :_positionView;
         %tmp.3 = getv function %tmp.2 :setPosition;
         %tmp.5 = lgetv %info;
-        %tmp.7 = getv ? :raceRouteData;
-        %tmp.9 = getv ? :_raceStats;
-        invoke %tmp.2 %tmp.3(%tmp.5, %tmp.7, %tmp.9);
-_Users_maksimivanov_workspace_vatternrundan_companion_source_vatternrundancompanionApp_mc_33_53_stop:
+        %tmp.7 = getv ? :_raceStats;
+        invoke %tmp.2 %tmp.3(%tmp.5, %tmp.7);
+_Users_maksimivanov_workspace_vatternrundan_companion_source_vatternrundancompanionApp_mc_31_53_stop:
     }
-    [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc"; @line = 38; ]
+    [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc"; @line = 36; ]
     function getInitialView() as Array<Views or InputDelegates> or Null {
-_Users_maksimivanov_workspace_vatternrundan_companion_source_vatternrundancompanionApp_mc_38_65_start:
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" 39 8 ]
+_Users_maksimivanov_workspace_vatternrundan_companion_source_vatternrundancompanionApp_mc_36_65_start:
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" 37 8 ]
         %tmp.1 = newa Array<Views or InputDelegates> 2;
         %tmp.3 = getv ? :_positionView;
         %tmp.4 = dup %tmp.1;
@@ -114,19 +102,19 @@ _Users_maksimivanov_workspace_vatternrundan_companion_source_vatternrundancompan
         %tmp.10 = dup %tmp.5;
         %tmp.11 = aputv %tmp.10 1 %tmp.6;
         ret %tmp.11;
-_Users_maksimivanov_workspace_vatternrundan_companion_source_vatternrundancompanionApp_mc_38_65_stop:
+_Users_maksimivanov_workspace_vatternrundan_companion_source_vatternrundancompanionApp_mc_36_65_stop:
     }
 }
-[ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc"; @line = 44; ]
+[ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc"; @line = 42; ]
 function getApp() as vatternrundancompanionApp {
-_Users_maksimivanov_workspace_vatternrundan_companion_source_vatternrundancompanionApp_mc_44_47_start:
-[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" 45 4 ]
+_Users_maksimivanov_workspace_vatternrundan_companion_source_vatternrundancompanionApp_mc_42_47_start:
+[ "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc" 43 4 ]
     %tmp.1 = getm $.Toybox.Application;
     %tmp.2 = getv function %tmp.1 :getApp;
     %tmp.3 = invoke %tmp.1 %tmp.2();
     %tmp.4 = as %tmp.3 vatternrundancompanionApp;
     ret %tmp.4;
-_Users_maksimivanov_workspace_vatternrundan_companion_source_vatternrundancompanionApp_mc_44_47_stop:
+_Users_maksimivanov_workspace_vatternrundan_companion_source_vatternrundancompanionApp_mc_42_47_stop:
 }
 [ @file = "/Users/maksimivanov/workspace/vatternrundan-companion/source/vatternrundancompanionApp.mc"; @line = 1; ]
 <init> {
