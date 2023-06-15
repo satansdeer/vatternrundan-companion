@@ -201,7 +201,7 @@
         <entry arg="true" endPc="268437007" name="state" stackId="1" startPc="268436968"/>
         <entry arg="true" endPc="268437229" name="item" stackId="1" startPc="268437157"/>
         <entry arg="true" endPc="268437565" name="dc" stackId="1" startPc="268437251"/>
-        <entry endPc="268437565" name="rez_cmp_local_text_9743296719" stackId="2" startPc="268437263"/>
+        <entry endPc="268437565" name="rez_cmp_local_text_2103909926" stackId="2" startPc="268437263"/>
         <entry endPc="268437565" name="rez_cmp_local_bitmap_id_monkey" stackId="3" startPc="268437263"/>
     </localVars>
     <annotations>
