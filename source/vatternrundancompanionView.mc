@@ -24,6 +24,24 @@ class vatternrundancompanionView extends WatchUi.View {
         View.onUpdate(dc);
     }
 
+    //! Set the position
+    //! @param info Position information
+    public function setPosition(info, raceRouteData, raceStats) as Void {
+	// log position
+        var position = info.position;
+	var lat = position.toDegrees()[0];
+	var lon = position.toDegrees()[0];
+
+	var checkpoints = raceRouteData["checkpoints"];
+        var keys = checkpoints.keys();
+
+	var raceStatsData = raceStats.calculate_race_stats([lat, lon], raceRouteData["route"]);
+
+	System.println("RaceRouteData: " + raceStatsData);
+
+        WatchUi.requestUpdate();
+    }
+
     // Called when this View is removed from the screen. Save the
     // state of this View here. This includes freeing resources from
     // memory.
